@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A simple and beautiful e-commerce site built with React." />
+    <meta name="author" content="Naresh" />
+    <meta name="keywords" content="ecommerce, shopping, React, simple store" />
+
+    <title>Simple E-Commerce</title>
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMD6iWX/yKb/jnQpPxX9UzGg01nREdABHPQ5Itl"
+      crossorigin="anonymous"
+    />
+
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #282c34;
+        padding: 1rem;
+        color: white;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      footer {
+        background-color: #282c34;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      a {
+        color: #61dafb;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .loading {
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      .loading i {
+        font-size: 2rem;
+        color: #61dafb;
+      }
+
+      .error {
+        text-align: center;
+        color: red;
+        font-size: 1.2rem;
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        .container {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Simple E-Commerce Store</h1>
+      <p>Your one-stop shop for the best products</p>
+    </header>
+
+    <div id="root"></div>
+
+    <footer>
+      <p>
+        &copy; 2024 Simple E-Commerce. Built by <a href="https://github.com/Divyasree199">Divyasree</a>.
+      </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </body>
+</html>
